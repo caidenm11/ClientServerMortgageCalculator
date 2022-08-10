@@ -12,7 +12,7 @@ public interface Protocol {
     int SUCCESS = 100;
     int FAIL = 101;
     int QUIT = 1000;
-    int UKNOWN_COMMAND = 1001;
+    int UNKNOWN_COMMAND = 1001;
 
 }
 /*

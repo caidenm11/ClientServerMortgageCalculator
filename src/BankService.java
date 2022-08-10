@@ -1,4 +1,3 @@
-import javax.jws.soap.SOAPBinding;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -55,7 +54,7 @@ public class BankService implements Protocol, Runnable{
                         Successful();
                         break;
                     default:
-                        out.writeInt(UKNOWN_COMMAND);
+                        out.writeInt(UNKNOWN_COMMAND);
                         out.writeInt(FAIL);
                         out.flush();
                         break;
